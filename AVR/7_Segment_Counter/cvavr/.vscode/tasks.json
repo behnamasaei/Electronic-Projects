@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build with CVAVR",
+        "type": "shell",
+        "command": "C:\\cvavr\\BIN\\cvavr.exe",
+        "args": [
+          "-make",
+          "main.prj"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Compile AVR project with CodeVision AVR"
+      }
+    ]
+  }
+  
