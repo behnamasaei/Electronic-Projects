@@ -31,7 +31,7 @@ void main(void)
                   PORTC = number[counter];
                   delay_ms(1000);     // Display each number for 1 second
                   PORTC = 0x00000000; // Turn off display
-                  delay_ms(10);      // Add a small delay between numbers
+                  delay_ms(10);       // Add a small delay between numbers
             }
       }
 }
