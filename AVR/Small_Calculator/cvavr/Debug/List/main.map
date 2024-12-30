@@ -1,0 +1,55 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+keyPad                                                                            0x0160      16
+num1_str                                                                          0x0170      16
+num2_str                                                                          0x0180      16
+buffer                                                                            0x0190      16
+_seed                                                                             0x01A0       4
+_base_y                                                                           0x01A4       4
+_lcd_y                                                                            0x01A8       1
+_lcd_maxx                                                                         0x01A9       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+operator                                                                          R5           1
+numberOne                                                                         R6,R7        2
+numberTwo                                                                         R8,R9        2
+result                                                                            R10,R11      2
+_lcd_x                                                                            R4           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0009E     18
+check_key_selected                                                                0x000B0    258
+putchar                                                                           0x001B2      7
+put_usart_G100                                                                    0x001B9     10
+put_buff_G100                                                                     0x001C3     58
+_ftoe_G100                                                                        0x001FD    210
+_print_G100                                                                       0x002CF    538
+sprintf                                                                           0x004E9     46
+printf                                                                            0x00517     31
+atoi                                                                              0x00536     55
+ftoa                                                                              0x0056D    198
+_lcd_write_nibble_G102                                                            0x00633     20
+_lcd_write_data                                                                   0x00647     12
+lcd_gotoxy                                                                        0x00653     15
+lcd_clear                                                                         0x00662     13
+lcd_putchar                                                                       0x0066F     26
+lcd_puts                                                                          0x00689     15
+lcd_putsf                                                                         0x00698     19
+lcd_init                                                                          0x006AB     46
+memset                                                                            0x006D9     16
+strcpyf                                                                           0x006E9     13
+strlen                                                                            0x006F6     12
+strlenf                                                                           0x00702     13
+isdigit                                                                           0x0070F      9
+isspace                                                                           0x00718     11
+ftrunc                                                                            0x00723     49
+floor                                                                             0x00754     23
