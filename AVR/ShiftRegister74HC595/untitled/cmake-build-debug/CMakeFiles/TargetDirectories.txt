@@ -1,0 +1,3 @@
+C:/Users/Behnam/Documents/Fork Projects/Electronic-Projects/AVR/ShiftRegister74HC595/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/Behnam/Documents/Fork Projects/Electronic-Projects/AVR/ShiftRegister74HC595/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Behnam/Documents/Fork Projects/Electronic-Projects/AVR/ShiftRegister74HC595/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

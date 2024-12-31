@@ -1,0 +1,23 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+IMAGES                                                                            0x0160      80
+_seed                                                                             0x01B0       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+MAX7219_Init                                                                      0x00095      7
+MAX7219_Send                                                                      0x0009C     47
+MAX7219_Configure                                                                 0x000CB     30
+MAX7219_DisplayPattern                                                            0x000E9     21
+MAX7219_Clear                                                                     0x000FE     11
+main                                                                              0x00109     29

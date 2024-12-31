@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\Behnam\Documents\Fork Projects\Electronic-Projects\AVR\ShiftRegister74HC595\cvavr Select CMakeLists.txt
