@@ -3,9 +3,9 @@
  <FRAME activewindow="0">
   <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffff0d010000000000005e050000c7020000</PLACEMENT>
   <WINDOW type="default" module="ISIS">
-   <editor metric="0" gridmajor="25400000" mode="00000010" zoom="-1" scale="15" flipped="0" gridminor="5080000" gridmode="16" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="846666">
+   <editor metric="0" gridmajor="2540000" mode="00000010" zoom="-1" scale="168" flipped="0" gridminor="254000" gridmode="16" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="127000">
     <world y1="-8890000" x1="-12700000" y2="8890000" x2="12700000"/>
-    <centre x="-4572000" y="-2794000"/>
+    <centre x="-2286000" y="423333"/>
     <origin x="0" y="0"/>
    </editor>
   </WINDOW>
@@ -18,9 +18,9 @@
   </editor>
  </MODULE>
  <MODULE name="ISIS">
-  <editor metric="0" gridmajor="25400000" mode="00000010" zoom="-1" scale="15" flipped="0" gridminor="5080000" gridmode="16" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="846666">
+  <editor metric="0" gridmajor="2540000" mode="00000010" zoom="-1" scale="168" flipped="0" gridminor="254000" gridmode="16" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="127000">
    <world y1="-8890000" x1="-12700000" y2="8890000" x2="12700000"/>
-   <centre x="-4572000" y="-2794000"/>
+   <centre x="-2286000" y="423333"/>
    <origin x="0" y="0"/>
   </editor>
  </MODULE>
@@ -93,7 +93,7 @@
      <ITEM name="TopLineAddress">00000000</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="16" x="208" flags="80000000" y="269" h="32" pid="14" iid="1">
+   <POPUP w="16" x="208" flags="00000000" y="269" h="32" pid="14" iid="1">
     <PROPERTIES>
      <ITEM name="DataType">2</ITEM>
      <ITEM name="DispChars">Yes</ITEM>
@@ -129,10 +129,10 @@
      <ITEM name="VSplitter1Pos">238</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="1005" x="168" flags="00000022" y="44" h="504" pid="0" iid="4">
+   <POPUP w="529" x="821" flags="00000022" y="16" h="412" pid="0" iid="4">
     <PROPERTIES>
-     <ITEM name="HSplitter1Pos">166</ITEM>
-     <ITEM name="VSplitter1Pos">238</ITEM>
+     <ITEM name="HSplitter1Pos">96</ITEM>
+     <ITEM name="VSplitter1Pos">171</ITEM>
     </PROPERTIES>
    </POPUP>
    <POPUP w="910" x="456" flags="00000022" y="162" h="451" pid="0" iid="5">
