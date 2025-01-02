@@ -1,0 +1,30 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+RIGHT_DIR                                                                         R5           1
+POWER                                                                             R4           1
+SPEED                                                                             R6,R7        2
+COIL_PIN_RIGHT_SUB_DEG                                                            R9           1
+COIL_PIN_LEFT_SUB_DEG                                                             R8           1
+COIL_PIN_MAIN_DEG                                                                 R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int0_isr                                                                      0x00074     91
+run_stepper                                                                       0x000CF     69
+main                                                                              0x00114     30
+putchar                                                                           0x00132      7
+put_usart_G100                                                                    0x00139     13
+_print_G100                                                                       0x00146    308
+printf                                                                            0x0027A     37
+strlen                                                                            0x0029F     12
+strlenf                                                                           0x002AB     13

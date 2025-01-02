@@ -27,7 +27,7 @@ Active0=0
 EditorPanel0=0
 PageIndex0=0
 EditorPanel1=0
-TimeStamp1=1503566134
+TimeStamp1=1503625083
 PageIndex1=1
 [CompilerDebug]
 Chip=ATmega16A
@@ -375,12 +375,12 @@ Row=0
 Column=0
 ScrollPosX=0
 ScrollPosY=0
-TimeStamp=1503567324
+TimeStamp=1512148198
 [BookmarksFoldedCode]
 Files=1
 F1=main.c
 [Bookmarks1]
-TimeStamp=1503566631
+TimeStamp=1503625083
 Row=0
 Column=0
 ScrollPosX=0
@@ -395,8 +395,6 @@ BK6=-1
 BK7=-1
 BK8=-1
 BK9=-1
-[FoldedCode1]
-Blocks=0
 [Header1]
 Files=10
 F1=C:\cvavr\inc\mega32.h
@@ -409,3 +407,5 @@ F7=C:\cvavr\inc\mega16_bits.h
 F8=C:\cvavr\inc\stdarg.h
 F9=C:\cvavr\inc\stdlib.h
 F10=C:\cvavr\inc\stdint.h
+[FoldedCode1]
+Blocks=0
